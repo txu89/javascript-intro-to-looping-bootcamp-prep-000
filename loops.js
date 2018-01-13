@@ -18,7 +18,7 @@ function doWhileLoop(anArray) {
   }
  
   do {
-    array.pop()
+    anArray.pop()
   } while (anArray.length > 0 && maybeTrue())
  
   return anArray
