@@ -12,14 +12,14 @@ function whileLoop(num) {
   return "done"
 }
 
-function doWhileLoop(array) {
+function doWhileLoop(anArray) {
   function maybeTrue() {
     return Math.random() >= 0.5
   }
  
   do {
     array.pop()
-  } while (array.length > 0 && maybeTrue())
+  } while (anArray.length > 0 && maybeTrue())
  
-  return array
+  return anArray
 }
